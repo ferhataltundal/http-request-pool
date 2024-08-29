@@ -9,7 +9,7 @@ export type ResponseType<T> = {
   response: T | null | undefined | string;
 };
 
-export type Config = https.RequestOptions | https.RequestOptions;
+export type Config = http.RequestOptions | https.RequestOptions;
 
 export type MultipleRequestType = {
   key: string;
